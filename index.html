@@ -1,42 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="shortcut icon" href="./favicon.png" />
-        <meta name="theme-color" content="#000000" />
-        <title>Simple Boilerplate</title>
-        <link rel="stylesheet" type="text/css" href="src/css/index.css">
-        <!-- Add additional CSS & JS files as necessary here -->
-    </head>
-    <body>
-        <!-- Add your site or application content here -->
-        <div id="root">
-            <img src="src/assets/simple-boilerplate-logo@3x.png" class="logo" alt="logo" />
-            <h1>Welcome to Simple Boilerplate!</h1>
-            <p>
-                This boilerplate is ready for HTML/CSS, Javascript, and JQuery projects. 
-                It includes a live server that lets you see HTML/JS/CSS changes with every save.
-            </p>
-            
-            <p id="subtext">
-                An Example JavaScript Hook.
-            </p>
+<head>
+    <meta charset="UTF-8">
+     <link rel="shortcut icon" href="src/assets/favicon.png" /> 
+    <meta name="theme-color" content="#000000" />
+    <title>TickyBot - Your Support Ticket Slack Bot</title>
+    <link rel="stylesheet" type="text/css" href="src/css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika:300,600">
+</head>
 
-            <h2>Instructions:</h2>
-            <p>
-                To see live changes, please go to the root folder ('simple-boilerplate/')
-                and run "npm start".
-            </p>
-            <p>
-                To start coding, start changing the files within src/css and src/js. 
-                Images can be stored in src/assets.
-            </p>
-        </div>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-        <!-- ================================ -->
-        <!-- Add more JavaScript files here!! -->
-        <!-- ================================ -->
-        <script type="text/javascript" src="src/js/other.js"></script>
-        <script type="text/javascript" src="src/js/index.js"></script>
-    </body>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li id="home-an"><a href="#home">Home</a></li>
+                <li id="about-an"><a href="#about">About</a></li>
+                <li id="features-an"><a href="#features">Features</a></li>
+                <li id="slack-an"><a href="#slack">Add to Slack</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner-content">
+                <div class="title">
+                    <h1><strong>Ticky</strong>Bot</h1>
+                </div>
+                <div class="description">
+                    <p>Let your team manage their support tickets 100% inside of Slack</p>
+                    <a href="#" class="slack-button">
+                        <img src="src/assets/slack.svg" alt="Slack icon" viewBox="0 0 100 100" width="100px" height="100px">
+                        Add to <strong>Slack</strong>
+                    </a>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="src/assets/tickybot.svg" alt="TickyBot" viewBox="0 0 100 100" width="400px" height="400px">
+            </div>
+        </section>
+        <section class="about">
+            <div>
+                <h3>What is <strong>Ticky</strong>Bot</h3>
+            </div>
+            <div>
+                <p><strong>Ticky</strong>Bot is a Slack Bot 🤖 that lets you use support tickets on Slack. This way, you
+                    don't need to leave your beloved channel to assist your users, if you don't feel like it.</p>
+            </div>
+            <div>
+                <p>With <strong>Ticky</strong>Bot you can easily check if you've received new tickets, change their
+                    status, or write a reply, and the ticket will instantly update itself on our site.</p>
+            </div>
+            <div>
+                <p>Support requests shouldn't be handled through Slack's direct messages.</p>
+                <p><em>Image about someone asking silly questions and the workplace admin asking him/her to open a
+                        support ticket so other admins could look into the issue.</em></p>
+            </div>
+        </section>
+        <section class="features">
+        </section>
+        <section class="cta">
+        </section>
+    </main>
+    <footer>
+        <p>Made with <span class="heart">&hearts;</span> by Tyler Estes in Kyoto, Japan</p>
+        <p>Source code is avilable on <a href="https://github.com/estysdesu/chinguPreWork.git">Github</a></p>
+        <p>The app is not created by, affiliated with, or supported by Slack Technologies, Inc.</p>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script type="text/javascript" src="src/js/other.js"></script>
+    <script type="text/javascript" src="src/js/index.js"></script>
+</body>
+
 </html>
