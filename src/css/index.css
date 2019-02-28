@@ -1,4 +1,64 @@
 
-.heart {
-  color: #e25555;
+/* GLOBALS */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: #000000;
+  font-family: Signika, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  line-height: 1.5
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Signika', sans-serif;
+}
+
+/* NAVBAR 
+Overwrite navbar b/c bulma/nav-center is deprecated
+*/
+.is-header {
+  background-color: #40596b;
+}
+.navbar-center {
+  height: 62px;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-center a {
+  color: #ffd05a;
+  margin: 1rem;
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+
+/* HERO */
+.hero {
+  background-color: #55c0ec;
+}
+.column#description {
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: #264351;
+  font-size: 5rem;
+  padding: 1rem;
+}
+.subtitle {
+  color: #FFFFFF;
+  font-size: 1.55rem;
+  font-weight: 300;
+  padding: 1rem;
+}
+.has-image-centered {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 0;
 }
