@@ -12,7 +12,7 @@ body {
   color: #000000;
   font-family: Signika, Helvetica, Arial, sans-serif;
   font-weight: 200;
-  line-height: 1.5
+  line-height: 1.5;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Signika', sans-serif;
@@ -32,14 +32,31 @@ Overwrite navbar b/c bulma/nav-center is deprecated
 }
 .navbar-center a {
   color: #ffd05a;
-  margin: 1rem;
-  font-size: 1.35rem;
-  font-weight: 400;
+  margin: .5rem;
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 /* HERO */
 .hero {
   background-color: #55c0ec;
+  padding: 1rem;
+  min-height: 622px;
+}
+.hero-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.columns {
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.column {
+  margin: 1rem;
+  min-width: 300px;
+  padding: 0;
 }
 .column#description {
   flex-flow: column nowrap;
@@ -49,16 +66,25 @@ Overwrite navbar b/c bulma/nav-center is deprecated
 .title {
   color: #264351;
   font-size: 5rem;
-  padding: 1rem;
+  padding: .5rem 0;
+  letter-spacing: -3px;
 }
 .subtitle {
   color: #FFFFFF;
-  font-size: 1.55rem;
+  font-size: 1.75rem;
   font-weight: 300;
-  padding: 1rem;
+  padding: .5rem 0;
+}
+.button {
+  width: 300px;
+  border-radius: 5px;
+  height: 75px;
+}
+.button .slack-cta {
+  font-size: 1.75rem;
+  color: rgba(0,0,0,.65);
 }
 .has-image-centered {
   margin-left: auto;
   margin-right: auto;
-  padding: 2rem 0;
 }
