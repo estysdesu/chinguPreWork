@@ -1,6 +1,6 @@
 # chinguPreWork (Unfinished)
 
-## About
+## Description
 A simple clone of a static landing page, [TickyBot](https://tickybott.herokuapp.com/). 
 
 ## How to Use
