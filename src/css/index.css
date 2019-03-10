@@ -36,6 +36,9 @@ Overwrite navbar b/c bulma/nav-center is deprecated
   font-size: 1.25rem;
   font-weight: 300;
 }
+.navbar-center a:hover {
+  color: white;
+}
 
 /* HERO */
 .hero {
@@ -84,7 +87,13 @@ Overwrite navbar b/c bulma/nav-center is deprecated
   font-size: 1.75rem;
   color: rgba(0,0,0,.65);
 }
+/* .button .image:hover{
+  transition: all .2s;
+  transform: rotateZ(17deg) scale(1.5); 
+} */
 .has-image-centered {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* ABOUT */
